@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NET PAY CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <nav class="navbar">
+        
+
+
+        <div class="PAY"><b>pay</b>roll</div>
+
+        
+    </nav>
+    <div class="container">
+
+
+    <h1 class="payy">NET PAYEE CALCULATOR <br> <span class="enter">Enter the gross salary below amount to calculate your net amount</span></h1>
+
+
+        <form action=""  id="formhtml">
+            <div class="container2">
+                <label for="">Basic Salary:</label>
+                <input id="basic_salary" type="number" placeholder="KES" required>
+                <label for="">Benefits:</label>
+                <input id="benefits" type="number" placeholder="KES" required>
+                <button class="butt"  type="submit">Calculate</button> 
+
+            </form><br><br>
+    
+            <table border="" id="table">
+                <thead>
+                    <tr>
+                        <th id="des">Description</th>
+                        <th id="res">Result</th>
+                    </tr>
+        
+                    <tbody>
+                        <tr>
+                            <td>Gross Salary</td>
+                            <td id="gross_salary"></td>
+                        </tr>
+                        <tr>
+                            <td>NSSF</td>
+                            <td id="nssf"></td>
+                        </tr>
+                        <tr>
+                            <td>NHDF</td>
+                            <td id="nhdf"></td>
+                        </tr>
+                        <tr>
+                            <td>Final Payee</td>
+                            <td id="Final_payee"></td>
+                        </tr>
+                        <tr>
+                            <td>NHIF</td>
+                            <td id="nhif"></td>
+                        </tr>
+                        <tr>
+                            <td>Net Payee</td>
+                            <td id="net_payee"></td>
+                        </tr>
+        
+        
+                    </tbody>
+        
+        
+                </thead>
+        
+        
+        
+            </table>
+    
+            </div>
+           
+        
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

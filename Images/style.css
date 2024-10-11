@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+h1{
+  color: aliceblue;
+}
+
+p{
+  background-color: gray;
+  color: white;
+
+
+}
+
+#P1{
+
+}
+
+
+.odd{
+    color: blue;
+}
+
+.even{
+    color: bisque;
+}
+
+
+h1{
+    border-top-style: dotted;
+
+
+
+}
+p{
+    border-style: outset;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 5px;
+}
+   
+

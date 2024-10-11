@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body{
+            min-height: 100vh;
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+    
+        .logo a{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 30px;
+         
+        }
+
+        .logo .change{
+            color:rgb(202, 9, 73)
+        }
+
+        ul{
+            list-style-type: none; display: flex; justify-content: flex-end;
+        }
+
+
+        li{
+            list-style-type: none; display: inline-block; margin-left: 30px; align-items: center; padding-top: 5px; margin-top: 0px; 
+        }
+
+        li a{
+            color:white; padding-right: 10px; font-size: 13px; margin-right: 10px; padding-left: 0px; 
+        }
+
+    
+        
+        .sidebar{
+            position: fixed;
+            top: 0%;
+            right: 0%;
+            height: 100vh;
+            width: 250px;
+            z-index: 999;
+            background-color:black;
+            backdrop-filter: blur 10px;
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        .sidebar li{
+            width: 100%;
+        }
+        
+        .sidebar a{
+            width: 100%;
+        }
+
+        .change{
+            color: rgb(223, 53, 109);
+        }
+
+        .logo{
+            color: aliceblue;
+            margin: 0px;
+            padding: 0;
+        }
+
+        .change{
+            color: rgb(205, 32, 61);
+        }
+
+        .navdiv{
+            display: flex; align-items: center; justify-content: space-between; margin-right: 120px; margin-top: 20px; margin-left: 80px;
+        }
+
+        .parag{
+            color: aliceblue;
+            padding: 40px;
+            margin: 200px;
+            font-size: 60px;
+        }
+
+        .name{
+            color: rgb(205, 32, 61);
+            
+
+        }
+
+        .btn{
+            border-color: red;
+        }
+
+
+
+    
+
+        
+
+    
+
+
+
+
+    </style>
+</head>
+<body>
+<nav>
+    <div class="navdiv">
+        <div class="logo">
+            <a href="#"><span class="change">S</span>HAIF <span class="change">A</span>RFAN</a></li>
+        </div>
+    
+        
+        <ul class="sidebar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <ul>
+            
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+
+    </div>
+    
+</nav>
+
+<div>
+    <h3 class="parag">Hello,<br> My Name is <br><span class="name">Arfan</span></h3> 
+
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
